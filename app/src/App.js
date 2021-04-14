@@ -5,15 +5,13 @@ import { Component } from 'react';
 class App extends Component{
 
   render(){
-    return (    <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
+    return (    
+    <div className="App">
  
-    </header>
-  </div>)
+      <h1>This is Danny's Development Environment</h1>
+
+    </div>
+  )
   }
 
 }
